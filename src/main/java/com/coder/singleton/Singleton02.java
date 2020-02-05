@@ -5,4 +5,5 @@ package com.coder.singleton;
  * 2.懒汉式：
  */
 public class Singleton02 {
+    private static Singleton02 INSTANCE;
 }
