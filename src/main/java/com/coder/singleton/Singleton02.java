@@ -6,4 +6,5 @@ package com.coder.singleton;
  */
 public class Singleton02 {
     private static Singleton02 INSTANCE;
+    private Singleton02(){}
 }
