@@ -4,6 +4,7 @@ package com.coder.singleton;
  * 单例模式演化过程
  * 1.饿汉式，在类加载完成后，就进行对象实例化。而且JVM可以保证线程安全，仅实例化一个单例。
  * 缺点就是，不管有没有用到，类加载完后就已经初始化了（吹毛求疵）。
+ * Class.forName("xxx"):把类加载到内存中，但并不实例化，除了静态的变量。
  */
 public class Singleton01 {
     private static final Singleton01 INSTANCE = new Singleton01();
